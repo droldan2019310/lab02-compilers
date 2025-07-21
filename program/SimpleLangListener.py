@@ -35,6 +35,15 @@ class SimpleLangListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by SimpleLangParser#Mod.
+    def enterMod(self, ctx:SimpleLangParser.ModContext):
+        pass
+
+    # Exit a parse tree produced by SimpleLangParser#Mod.
+    def exitMod(self, ctx:SimpleLangParser.ModContext):
+        pass
+
+
     # Enter a parse tree produced by SimpleLangParser#Bool.
     def enterBool(self, ctx:SimpleLangParser.BoolContext):
         pass
@@ -86,6 +95,15 @@ class SimpleLangListener(ParseTreeListener):
 
     # Exit a parse tree produced by SimpleLangParser#Int.
     def exitInt(self, ctx:SimpleLangParser.IntContext):
+        pass
+
+
+    # Enter a parse tree produced by SimpleLangParser#Power.
+    def enterPower(self, ctx:SimpleLangParser.PowerContext):
+        pass
+
+    # Exit a parse tree produced by SimpleLangParser#Power.
+    def exitPower(self, ctx:SimpleLangParser.PowerContext):
         pass
 
 
